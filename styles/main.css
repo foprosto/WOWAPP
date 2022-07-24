@@ -1,0 +1,18 @@
+@import url(./fonts.css);
+h1{ 
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  color: aquamarine;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainscreen {
+  background-color: #FFE457;
+  background-image: url(../img/Blot-Header.svg);
+}
