@@ -1,18 +1,34 @@
 @import url(./fonts.css);
-h1{ 
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 800;
-  color: aquamarine;
-}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+ul, li {
+  display: block;
+}
 
 .mainscreen {
   background-color: #FFE457;
   background-image: url(../img/Blot-Header.svg);
 }
+
+header {
+  display: flex;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  
+}
+
+.menu {
+  display: flex;
+}
+
