@@ -16,6 +16,13 @@ ul, li {
 
 header {
   display: flex;
+  align-items: center;
+  padding: 110px 130px 0px 130px;
+}
+
+.wowapp {
+margin-right: 120px;
+margin-top: 4px;
 }
 
 .menu li a {
@@ -25,7 +32,23 @@ header {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
-  
+  color: #000;
+  margin-right: 60px;
+}
+
+.mail {
+  margin-left: auto
+}
+
+.gmail {
+  margin-left: 16px;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000;
 }
 
 .menu {
