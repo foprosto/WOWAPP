@@ -12,6 +12,7 @@ ul, li {
 .mainscreen {
   background-color: #FFE457;
   background-image: url(../img/Blot-Header.svg);
+  background-repeat: no-repeat;
 }
 
 header {
@@ -23,6 +24,10 @@ header {
 .wowapp {
 margin-right: 120px;
 margin-top: 4px;
+}
+
+.menu {
+  display: flex;
 }
 
 .menu li a {
@@ -51,7 +56,12 @@ margin-top: 4px;
   color: #000;
 }
 
-.menu {
-  display: flex;
-}
 
+
+.sense {
+  background: #FF7474;
+  border-radius: 50px;
+  width: 1180px;
+  height: 528px;
+  margin: 130px;
+}
