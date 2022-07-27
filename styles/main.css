@@ -5,6 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+width: 1440px;
+}
+
 ul, li {
   display: block;
 }
@@ -56,12 +61,38 @@ margin-top: 4px;
   color: #000;
 }
 
-
-
 .sense {
   background: #FF7474;
   border-radius: 50px;
   width: 1180px;
   height: 528px;
   margin: 130px;
+}
+
+.sense h1 {
+  display: inline-block;
+  margin: 117px 0px 0px 71px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65px;
+  color: #F4F8FB;
+}
+
+.sense p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FAFAFA;
+  display: inline-block;
+  margin: 8px 0px 0px 71px;
+}
+
+.sense button {
+  margin: 44px 0px 0px 71px;
+  display: block;
+
 }
