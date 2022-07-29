@@ -13,6 +13,9 @@ width: 1440px;
 ul, li {
   display: block;
 }
+p {
+  display: inline-block;
+}
 
 .mainscreen {
   background-color: #FFE457;
@@ -46,6 +49,10 @@ margin-top: 4px;
   margin-right: 60px;
 }
 
+.menu li a:hover {
+  color: #6E62DD;
+}
+
 .mail {
   margin-left: auto
 }
@@ -61,12 +68,16 @@ margin-top: 4px;
   color: #000;
 }
 
+.gmail:hover {
+  color: #6E62DD;
+}
+
 .sense {
   background: #FF7474;
   border-radius: 50px;
   width: 1180px;
   height: 528px;
-  margin: 130px;
+  margin: 130px 130px 0 130px;
   display: flex;
   justify-content: space-between;
 }
@@ -99,7 +110,6 @@ width: 302px;
 height: 58px;
 border: none;
 background: #645FD8;
-box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 font-family: 'Open Sans';
 font-style: normal;
@@ -111,6 +121,60 @@ margin-top: 44px;
 cursor: pointer;
 }
 
+.sense div button:hover {
+  box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.sense div button:active {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .robot {
   margin: 0 -31px 0 0;
+}
+
+.benefits {
+  display: flex;
+}
+
+.first-benefit {
+  background-image: url(../img/boltbenefitone.svg);
+  background-repeat: no-repeat;
+}
+
+.second-benefit {
+  background-image: url(../img/boltbenefitsecond.svg);
+  background-repeat: no-repeat;
+}
+
+.third-benefit {
+  background-image: url(../img/boltbenefitthird.svg);
+  background-repeat: no-repeat;
+}
+
+.numbers {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65px;
+  color: #6F62DE;
+}
+
+.number-sense {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FF7474;
+}
+
+.number-description {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
 }
