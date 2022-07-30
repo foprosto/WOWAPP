@@ -135,21 +135,34 @@ cursor: pointer;
 
 .benefits {
   display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  height: 423px;
+}
+
+.flex-benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 63px;
 }
 
 .first-benefit {
   background-image: url(../img/boltbenefitone.svg);
   background-repeat: no-repeat;
+  width: 450px;
 }
 
 .second-benefit {
   background-image: url(../img/boltbenefitsecond.svg);
   background-repeat: no-repeat;
+  width: 410px;
 }
 
 .third-benefit {
   background-image: url(../img/boltbenefitthird.svg);
   background-repeat: no-repeat;
+  width: 440px;
 }
 
 .numbers {
@@ -177,4 +190,88 @@ cursor: pointer;
   font-size: 20px;
   line-height: 27px;
   color: #000000;
+  text-align-last: center;
+}
+
+.team-text {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 0 0 130px;
+}
+
+.team-text p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  margin-top: 2px;
+}
+
+.team-text p:first-child {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FF7474;
+  margin: 0;
+}
+
+.team-background {
+  background-image: url(../img/TeamBolt.svg);
+  background-repeat: no-repeat;
+}
+
+.team {
+  margin: 0 130px 0 130px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mark {
+  margin-top: 77px;
+}
+
+.jack {
+  margin: 194px 0 0 48px;
+}
+
+.mila {
+  margin-left: 11px;
+}
+
+.charlie {
+  margin-left: 201px;
+  margin-top: -43px;
+}
+
+.james {
+  margin-left: 48px;
+  margin-top: -20px;
+}
+
+.name {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FF7474;
+}
+
+.position{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: #6E62DD;
 }
