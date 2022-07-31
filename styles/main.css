@@ -277,10 +277,14 @@ h2 {
 }
 
 .services-backgroud {
-background-image: url(../img/BoltServices.svg);
-margin: 0 130px 0 130px;
-display: flex;
-justify-content: space-between;
+  background-image: url(../img/BoltServices.svg);
+}
+
+.services-m {
+  margin: 0 130px 0 130px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -35px;
 }
 
 .services {
@@ -288,6 +292,7 @@ justify-content: space-between;
   flex-direction: column;
   align-items: center;
   text-align-last: center;
+  margin-top: 140px;
 }
 
 .services-name {
@@ -306,6 +311,7 @@ justify-content: space-between;
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
+  margin-top: 24px;
 }
 
 .lm-button {
@@ -321,6 +327,7 @@ justify-content: space-between;
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
+  margin-top: 45px;
 }
 
 .lm-button:hover {
