@@ -7,7 +7,10 @@
 }
 
 body {
-width: 1440px;
+width: 1440px; 
+background-color: #FFE457;
+background-image: url(../img/Blot-Header.svg);
+background-repeat: no-repeat;
 }
 
 ul, li {
@@ -17,11 +20,11 @@ p {
   display: inline-block;
 }
 
-.mainscreen {
+/* .mainscreen {
   background-color: #FFE457;
   background-image: url(../img/Blot-Header.svg);
   background-repeat: no-repeat;
-}
+} */
 
 header {
   display: flex;
@@ -278,6 +281,7 @@ h2 {
 
 .services-backgroud {
   background-image: url(../img/BoltServices.svg);
+  height: 707px;
 }
 
 .services-m {
@@ -336,4 +340,177 @@ h2 {
 
 .lm-button:active {
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.portfolio {
+  margin-top: -95px;
+}
+
+h4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.portphones { 
+  margin: 37px 130px 0 130px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+}
+
+.portfolio-img {
+  position: absolute;
+  z-index: -1;
+  left: -125px;
+  top: 192px;
+}
+
+.phone-one {
+  width: calc(33.33% - 10px);
+  height: 415px;
+  border: 3px dashed #FF7474;
+  border-radius: 30px;
+  padding: 8px;
+}
+
+.pobg {
+  background-color: #6E62DD;
+  border-radius: 30px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hfpobg {
+  margin-top: 41px;
+  text-align: center;
+}
+
+.imgpo {
+  margin: -33px 0px 0px -105px;
+}
+
+.phone-two {
+  width: calc(66.66% - 10px);
+  height: 415px;
+  padding: 8px;
+}
+
+.ptbg {
+  background-color: #FF7474;
+  border-radius: 30px;
+  height: 400px;
+  padding: 55px 0 39px 54px;
+  display: flex;
+  position: relative;
+}
+
+.pttext {
+  display: flex;
+  flex-direction: column;
+}
+
+.pttext p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  margin: 18px 0 28px 0;
+}
+
+.pttext button {
+  background: #6E62DD;
+  border: #6E62DD;
+  margin: 0;
+}
+
+.imgpt {
+  position: absolute;
+  left: 394px;
+  top: -15px;
+}
+
+.phone-three {
+  width: calc(66.66% - 10px);
+  height: 417px;
+  border: 3px dashed #FF7474;
+  border-radius: 30px;
+  padding: 8px;
+}
+
+.pthbg {
+  background-color: #6E62DD;
+  border-radius: 30px;
+  height: 400px;
+  position: relative;
+}
+
+.pthtext {
+  padding: 43px 38px 45px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.pthtext h4 {
+  text-align: right;
+}
+
+.pthtext p {
+  text-align: right;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  margin: 24px 0 28px 0;
+}
+
+.pthtext button {
+  margin: 0;
+}
+
+.phone-three img {
+  position:absolute;
+  left: -80px;
+  top: -35px;
+}
+
+.phone-four {
+  width: calc(33.33% - 10px);
+  height: 415px;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+.pfbg {
+  background-color: #FF7474;
+  padding-top: 44px;
+  position: relative;
+  border-radius: 30px;
+  height: 400px;
+
+}
+
+.pfbg h4 {
+  text-align: center;
+}
+
+.pfbg img {
+  position: absolute;
+  top: 141px;
+  left: 5px;
+}
+
+.mwbutton {
+  margin: 34px 0 0 841px;
 }
