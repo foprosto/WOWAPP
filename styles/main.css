@@ -268,6 +268,7 @@ h2 {
   font-size: 20px;
   line-height: 27px;
   color: #FF7474;
+  margin-top: 15px;
 }
 
 .position{
@@ -513,4 +514,235 @@ h4 {
 
 .mwbutton {
   margin: 34px 0 0 841px;
+}
+
+.partners {
+  padding: 28px 130px 0 130px;
+  position: relative;
+}
+
+.polygon-left {
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  
+}
+
+.polygon-right {
+  position: absolute;
+  top: 100px;
+  left: 1350px;
+}
+
+.partners-bg {
+  border: 3px dashed #6E62DD;
+  border-radius: 20px;
+  padding: 0 85px 0 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.partners-bolt {
+  position: absolute;
+  z-index: -1;
+  left: -111px;
+  top: -106px;
+}
+
+.cblock-name {
+  padding-top: 50px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 230px 0 130px;
+  justify-content: space-between;
+}
+
+.contacts a{
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.adres {
+  height: 298px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 83px;
+  padding-left: 63px;
+  position: relative;
+  width: 406px;
+}
+
+.adres__phone {
+  left: 0px;
+  top: 73px;
+  height: 37px;
+  width: 37px;
+  position: absolute;
+}
+
+.adres__mail {
+  left: 0px;
+  top: 158px;
+  height: 37px;
+  width: 37px;
+  position: absolute;
+}
+
+.adres__adres {
+  left: 0px;
+  top: 248px;
+  height: 37px;
+  width: 37px;
+  position: absolute;
+}
+
+.contacts__adres__bolt {
+  position:absolute;
+  z-index: -1;
+  top: 8px;
+  left: -58px;
+}
+
+.wwcy {
+  display: flex;
+  flex-direction: column;
+  width: 424px;
+  position: relative;
+}
+
+.wwcy p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-left: 87px;
+  position: relative;
+}
+
+.wwcy form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.wwcy input {
+  height: 50px;
+  padding-left: 21px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  outline: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.wwcy input:focus {
+  border-bottom: 2px solid #ffffff;;
+}
+.wwcy label {
+  position:absolute;
+  z-index: -1;
+  transition: 0.3s;
+  left: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.53);
+}
+
+.lable-name {
+  top: 70px
+}
+
+.lable-phone {
+  top: 120px;
+}
+
+.lable-mail {
+  top: 170px;
+}
+
+.lable-message {
+  top: 220px;
+}
+
+.input__name:focus ~ .lable-name,
+.input__name:not(:placeholder-shown) ~ .lable-name {
+  top: 52px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.20);
+}
+
+.input__phone:focus ~ .lable-phone,
+.input__phone:not(:placeholder-shown) ~ .lable-phone{
+  top: 102px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.20);
+}
+
+.input__mail:focus ~ .lable-mail,
+.input__mail:not(:placeholder-shown) ~ .lable-mail {
+  top: 152px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.20);
+}
+
+.input__message:focus ~ .lable-message,
+.input__message:not(:placeholder-shown) ~ .lable-message{
+  top: 202px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.20);
+}
+
+.wwcy button {
+  margin-top: 33px;
+}
+
+.contacts__wwcy__bolt {
+  position: absolute;
+  z-index:-2;
+  top: -123px;
+  left: -154px;
+}
+
+footer {
+  height: 505px;
+  position: relative;
+}
+
+footer p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 373px 0 0 413px
+}
+
+footer img {
+  position: absolute;
+  left: 0px;
+  top: 157px;
+  z-index: -1;
 }
